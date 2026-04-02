@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="utilities.ExtendReportManager"/>
+</listeners>
+
+  <test thread-count="1" name="Test">
+   <parameter name="os"  value="Windows" />
+   <parameter name="browser"  value="chrome" />
+   
+
+    <classes>	
+       	
+       	<class name="testCases.LoginPage_Testcases"/>
+        <!--class name="testCases.ForgotPassword_Testcases"/>
+   		<class name="testCases.ParkCretion_Testcases"/>
+        <class name="testCases.PhasePage_Testcases"/>
+        <class name="testCases.BuildingCreation_Testcases"/>
+        <class name="testCases.CreateCompany_TestCases"/>
+        <class name="testCases.PhaseAdminCreation_Testcases"/>
+        <class name="testCases.PhaseAdminChangePasswordScreen_Testcases"/>
+        <class name="testCases.ParkDelete_testcases"/>
+        <class name="testCases.CreateGatePage_Testcases"/>
+        <class name="testCases.EditNDeleteGate_Testcases"/>
+        <class name="testCases.CreateParkAdmin_Testcases"/>
+        <class name="testCases.ChangePasswordPageForParkAdmin_Testcases"/>
+        <class name="testCases.EditNDeleteParkAdminPage_Testcases"/>      
+        <class name="testCases.ViewPark_Testcases"/>
+        <class name="testCases.EditDeletePark_Testcases"/>
+        <class name="testCases.PhaseViewPage_Testcases"/>
+        <class name="testCases.ViewEditDeleteBuilding_Testcases"/>-->
+            </classes>
+
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+  

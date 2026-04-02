@@ -1,0 +1,25 @@
+2025-08-14 11:36:52 [main] INFO  Log - Starting WebDriver
+2025-08-14 11:36:54 [main] INFO  Log - Navigating to the URL
+2025-08-14 11:37:07 [main] INFO  Log - Clicking on Create Park button
+2025-08-14 11:37:16 [main] INFO  Log - Setting park details
+2025-08-14 11:37:22 [main] INFO  Log - Clicked on Go to Park button
+2025-08-14 11:37:28 [main] INFO  Log - Clicked on View button for the newly created park
+2025-08-14 11:37:31 [main] INFO  Log - Clicked on View All Phases link
+2025-08-14 11:37:46 [main] INFO  Log - Create Phase Admin button clicked
+2025-08-14 11:38:45 [main] INFO  Log - Clicked on View All Phases link
+2025-08-14 11:38:46 [main] INFO  Log - Clicked on View All Gates link
+2025-08-14 11:38:56 [main] INFO  Log - Clicked on Submit Gate button
+2025-08-14 11:38:56 [main] INFO  Log - Clicking on Profile Icon
+2025-08-14 11:39:02 [main] INFO  Log - Clicked on Delete Park button for the newly created park
+2025-08-14 11:39:38 [main] INFO  Log - Closing Browser
+2026-02-22 12:02:27 [runner.DynamicTestRunner.main()] INFO  Utils - [TestNG] Running:
+  Command line suite
+
+2026-02-22 12:02:27 [runner.DynamicTestRunner.main()] INFO  Log - Starting WebDriver
+2026-02-22 12:02:30 [runner.DynamicTestRunner.main()] INFO  WebDriverManager - Using chromedriver 145.0.7632.77 (resolved driver for Chrome 145)
+2026-02-22 12:02:30 [runner.DynamicTestRunner.main()] INFO  Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.77/win64/chromedriver-win64.zip
+2026-02-22 12:02:32 [runner.DynamicTestRunner.main()] INFO  Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-02-22 12:02:32 [runner.DynamicTestRunner.main()] INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PearlSoft LT-125.DESKTOP-221H5FN\.cache\selenium\chromedriver\win64\145.0.7632.77\chromedriver.exe
+2026-02-22 12:02:37 [runner.DynamicTestRunner.main()] INFO  Log - Navigating to the URL
+2026-02-22 12:02:44 [runner.DynamicTestRunner.main()] INFO  Log - Starting login test
+2026-02-22 12:02:44 [runner.DynamicTestRunner.main()] INFO  Log - Submit with blank details

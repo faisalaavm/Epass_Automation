@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtendReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.PhasePage_Testcases">
+        <methods>
+          <include name="verifyBackButtonFunctionality"/>
+          <include name="verifyBlankPhaseNameValidation"/>
+          <include name="tearDown"/>
+          <include name="verifyITParkNameAutofilled"/>
+          <include name="verifyPhaseNameMustStartWithLetterValidation"/>
+          <include name="verifySuccessfulPhaseCreation"/>
+          <include name="verifyPhaseWithSameNameExistsValidation"/>
+          <include name="verifyPinCodeMustContainOnlyNumbersValidation"/>
+          <include name="verifyPhaseDetailsTitleIsDisplayed"/>
+          <include name="setup"/>
+          <include name="verifyCreatePhaseHelpTextIsDisplayed"/>
+          <include name="verifyCreatePhaseTitleIsDisplayed"/>
+          <include name="verifyPhaseNameInListAfterCreation"/>
+        </methods>
+      </class> <!-- testCases.PhasePage_Testcases -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

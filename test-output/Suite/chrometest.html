@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>TestNG:  chrometest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>chrometest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<<<<<<< HEAD
+<td>Started on:</td><td>Wed Jul 16 11:18:43 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>69 seconds (69963 ms)</td>
+=======
+<td>Started on:</td><td>Mon Jul 14 12:21:31 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22003 ms)</td>
+>>>>>>> 1c8bb375dd2911dbc103bbd3c9b5cb68803d1f27
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verify_Park_Creation_blankvalues()'><b>verify_Park_Creation_blankvalues</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_001_Verify user entering blank field values</td>
+<td></td>
+<<<<<<< HEAD
+<td>17</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verifyLogoIsDisplayed()'><b>verifyLogoIsDisplayed</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_007_Verify logo is displayed on the page</td>
+<td></td>
+<td>0</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verify_Park_CreationGoBack()'><b>verify_Park_CreationGoBack</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_006_Verify going back from park creation page</td>
+<td></td>
+<td>2</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verify_Park_Creation_invalidvalues()'><b>verify_Park_Creation_invalidvalues</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_002_Verify user entering invalid field values</td>
+<td></td>
+<td>5</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verify_Park_Creation_samename()'><b>verify_Park_Creation_samename</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_005_Verify park name with same name exists</td>
+<td></td>
+<td>13</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verify_Park_Creation_valid_values()'><b>verify_Park_Creation_valid_values</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_003_Verify user entering valid field values</td>
+<td></td>
+<td>8</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verifyHeaderTextIsDisplayed()'><b>verifyHeaderTextIsDisplayed</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_008_Verify header text is displayed on the page</td>
+<td></td>
+<td>2</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verifyparkNameInListAfterCreation()'><b>verifyparkNameInListAfterCreation</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_004 Verify park name is displayed in the list after creation</td>
+<td></td>
+<td>0</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+<tr>
+<td title='testCases.ParkCretion_Testcases.verifyLogout()'><b>verifyLogout</b><br>Test class: testCases.ParkCretion_Testcases<br>Test method: TC_009_logout from the application</td>
+<td></td>
+<td>12</td>
+<td>testCases.ParkCretion_Testcases@2925bf5b</td></tr>
+=======
+<td>1</td>
+<td>testCases.LoginPage_Testcases@8297b3a</td></tr>
+<tr>
+<td title='testCases.LoginPage_Testcases.validation_login()'><b>validation_login</b><br>Test class: testCases.LoginPage_Testcases<br>Test method: TC_001_Verify user can able to login with blank username and password</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_Testcases@8297b3a</td></tr>
+<tr>
+<td title='testCases.LoginPage_Testcases.logout_page()'><b>logout_page</b><br>Test class: testCases.LoginPage_Testcases<br>Test method: TC_006_Verify user can able to logout from the application</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_Testcases@8297b3a</td></tr>
+<tr>
+<td title='testCases.LoginPage_Testcases.login_page_with_valid_inputs()'><b>login_page_with_valid_inputs</b><br>Test class: testCases.LoginPage_Testcases<br>Test method: TC_005_Verify user can able to login with valid username and password</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPage_Testcases@8297b3a</td></tr>
+<tr>
+<td title='testCases.LoginPage_Testcases.login_page_with_invalid_details()'><b>login_page_with_invalid_details</b><br>Test class: testCases.LoginPage_Testcases<br>Test method: TC_002_Verify user can able to login with invalid username and invalid password</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_Testcases@8297b3a</td></tr>
+<tr>
+<td title='testCases.LoginPage_Testcases.login_page_with_invalid_username()'><b>login_page_with_invalid_username</b><br>Test class: testCases.LoginPage_Testcases<br>Test method: TC_003_Verify user can able to login with invalid username and a valid password</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPage_Testcases@8297b3a</td></tr>
+>>>>>>> 1c8bb375dd2911dbc103bbd3c9b5cb68803d1f27
+</table><p>
+</body>
+</html>

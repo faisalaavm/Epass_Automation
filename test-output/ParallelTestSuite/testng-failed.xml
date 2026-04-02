@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [ParallelTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ParallelTests(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.LoginPage_Testcases">
+        <methods>
+          <include name="login_page_with_invalid_details"/>
+          <include name="tearDown"/>
+          <include name="validation_login"/>
+          <include name="login_page_with_invalid_password"/>
+          <include name="login_page_with_invalid_username"/>
+          <include name="setup"/>
+          <include name="logout_page"/>
+          <include name="login_page_with_valid_inputs"/>
+        </methods>
+      </class> <!-- testCases.LoginPage_Testcases -->
+      <class name="testCases.ForgotPassword_Testcases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="forgotpassword_submit"/>
+          <include name="forgotpassword_backtologin"/>
+          <include name="setup"/>
+          <include name="email_Id_validation"/>
+          <include name="forgotpassword_notregisteredemail"/>
+        </methods>
+      </class> <!-- testCases.ForgotPassword_Testcases -->
+    </classes>
+  </test> <!-- ParallelTests(failed) -->
+</suite> <!-- Failed suite [ParallelTestSuite] -->
